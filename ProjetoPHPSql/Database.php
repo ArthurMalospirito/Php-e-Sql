@@ -1,10 +1,4 @@
 <?php
-// Ativar exibição de erros (em desenvolvimento)
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
-// Configurações do banco (substitua com as suas constantes)
 require_once "config.php";
 
 class Database {
@@ -84,3 +78,4 @@ echo '<h1>'. $busca[0]['nome'].'</h1>';
 echo '<br>';
 
 ?>
+
